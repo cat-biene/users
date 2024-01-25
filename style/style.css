@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+.addForm{
+    max-width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: azure;
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.field p{
+    padding: 5px;
+    font-size: 35px;
+}
+
+.field input{
+    height: 30px;
+    padding: 0 10px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    bottom: 10%;
+    left: 15%;
+    position: absolute;
+    background-color: darkred;
+    font-size: 30px;
+}
